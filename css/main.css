@@ -102,19 +102,43 @@
 
 .svcontainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
+    align-items: center;
     
 }
 .svsection{
     background-color: rgb(43, 42, 42);
     color: white;
+    padding: 50px;
 }
 .service{
-    height: 200px;
+    /* height: 200px; */
     width: 200px;
-    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 70px 10px gray;
+    padding: 15px;
+    margin: 0px 100px;
+    margin-top: 20px;
 }
 .icon{
     height: 70px;
 }
+.boxtitle{
+font-size: 30px;
+font-weight: bold;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.boxdec{
+font-size: 15px;
+margin-bottom: 20px;
+}
+.boxbtn{
+    font-size: 13px;
+    padding: 3px 10px;
+    background-color:  rgb(37, 37, 37);
+    color: white;
+    border: none;
+}
+/* service section complete  */
