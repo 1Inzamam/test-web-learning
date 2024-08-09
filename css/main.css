@@ -64,3 +64,36 @@
     background-color: green;
     cursor: pointer;
 }
+/* banner finished */
+
+.aboutcontainer{
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.abimage{
+    width: 300px;
+    margin-left: 200px;
+
+}
+.abouttitle{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.abouttext{
+    width: 34%;
+}
+.summary{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.abdec{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+/* about section complete */
