@@ -97,3 +97,24 @@
     margin-bottom: 15px;
 }
 /* about section complete */
+
+/* services section  */
+
+.svcontainer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.svsection{
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+.service{
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 10px gray;
+}
+.icon{
+    height: 70px;
+}
