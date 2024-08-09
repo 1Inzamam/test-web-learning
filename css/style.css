@@ -1,28 +1,28 @@
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
-.head{
-    color: red;
-    cursor: cell;
-    /* cursor: url("https://cdn.shopify.com/s/files/1/1061/1924/files/Slightly_Smiling_Face_Emoji_Icon_60x60.png?16228697460559734940"),auto; */
-}
-
-.container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* flex-direction: row-reverse; */
+.head {
+  color: red;
+  cursor: cell;
+  /* cursor: url("https://cdn.shopify.com/s/files/1/1061/1924/files/Slightly_Smiling_Face_Emoji_Icon_60x60.png?16228697460559734940"),auto; */
 }
 
-.box{
-    padding: 10px;
-    background-color: red;
-    width: 280px;
-    text-align: center;
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: row-reverse; */
 }
-.box1{
-    background-color: cyan;
+
+.box {
+  padding: 10px;
+  background-color: red;
+  width: 280px;
+  text-align: center;
 }
-.box2{
-    background-color: darkslategrey;
+.box1 {
+  background-color: cyan;
+}
+.box2 {
+  background-color: darkslategrey;
 }

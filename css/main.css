@@ -1,29 +1,66 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.nav-container{
-    background-color: rgb(44, 44, 44);
-    padding: 20px;
-    list-style: none;
-    color: white;
+/* navbar */
+.nav-container {
+  background-color: rgb(44, 44, 44);
+  padding: 20px;
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logoimg {
+  width: 200px;
+}
+.menu {
+  display: flex;
+}
+.lists {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.lists:hover {
+  background-color: rgb(61, 61, 61);
+  cursor: pointer;
+}
+/* navbar ended */
+
+/* banner */
+.sbimage{
+    width: 400px;
+}
+.bcontainer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 100vh;
+    background-image: url(./images/images/background.png),linear-gradient(45deg,rgb(10, 10, 10),rgb(54, 53, 53));
+    color: white;
+} 
+.btitle{
+    font-size: 40px;
+    font-weight: bold;
 }
-.logoimg{
-    width: 200px;
+.dec{
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
 }
-.menu{
-    display: flex;
+.btext{
+    width: 50%;
 }
-.lists{
-    margin-right: 10px;
+.btn{
     padding: 10px;
-    font-size:20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 2px;
 }
-
-.lists:hover{
-    background-color: rgb(61, 61, 61);
+.btn:hover{
+    background-color: green;
     cursor: pointer;
 }
