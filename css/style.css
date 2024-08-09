@@ -6,3 +6,22 @@
     cursor: cell;
     /* cursor: url("https://cdn.shopify.com/s/files/1/1061/1924/files/Slightly_Smiling_Face_Emoji_Icon_60x60.png?16228697460559734940"),auto; */
 }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    padding: 10px;
+    background-color: red;
+    width: 280px;
+    text-align: center;
+}
+.box1{
+    background-color: cyan;
+}
+.box2{
+    background-color: darkslategrey;
+}
